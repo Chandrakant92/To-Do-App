@@ -1,0 +1,67 @@
+.container{
+  background-color: #6002EE;
+  /* text-align: center; */
+  margin: 2% 10% 0% 10%;
+  border-radius: 5px;
+  padding: 2px;
+  
+}
+.container h4{
+  font-size: larger;
+  color: white;
+  text-align: center;
+}
+.container p{
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  border: 1px #92f40a solid;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+.thought{
+  display: flex;
+  justify-content: center;
+}
+.taskList{
+  display: flex;
+  margin: 0% 0% 0% 12%;
+
+}
+.tasklist{
+  font-size: 17px;
+  color: white;
+  text-decoration: dotted;
+  font-weight: 400;
+  width: 800px;
+  overflow: hidden;
+
+}
+.del-task{
+  margin: 0% 8%;
+  color: #92f40a;
+  font-size:x-large;
+}
+.dot{
+  margin-right: 8px;
+}
+.add-div{
+  margin: 8% 5% 2% ;
+}
+.add-button{
+  background-color: #92f40a;
+  color: #6002EE;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+
+  /* Add hover effect */
+  &:hover {
+    background-color: #7fc408;
+  }
+}
