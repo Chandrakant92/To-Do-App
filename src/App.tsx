@@ -13,16 +13,16 @@ const queryClient = new QueryClient();
 const apiUrl = process.env.REACT_APP_API_URL;
 
 const fetchTasks = async () => {
-  const { data } = await axios.get("http://localhost:5000/api/task");
+  const { data } = await axios.get("http://103.127.35.45:5000/api/task");
   return data;
 };
 
 const addTask = async (task: { title: string }) => {
-  const { data } = await axios.post("http://localhost:5000/api/todos", task);
+  const { data } = await axios.post("http://103.127.35.45:5000/api/todos", task);
   return data;
 };
 const deleteTask = async (taskId: string) => {
-  await axios.delete(`http://localhost:5000/api/todos/${taskId}`);
+  await axios.delete(`http://103.127.35.45:5000/api/todos/${taskId}`);
 };
 
 function App() {
